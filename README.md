@@ -1,0 +1,12 @@
+# Gradle Enterprise - Failsafe Jacoco Cache Miss
+
+This project demonstrates that Gradle Enterprise always results in a cache miss during `failsafe:integration-test` when running with Jacoco in a `report-aggreate` mode.
+
+## Instructions
+
+To demonstrate the following can be done:
+1. Update [gradle-enterprise.xml](.mvn/gradle-enterprise.xml) and set the URL and any other necessary properties for the Gradle Enterprise server
+2. Run `./mvnw clean verify`
+   1. This allows the initial cache to be built
+3. Run `./mvnw clean verify` again
+   1. `failsafe:integration-test` will result in a cache miss for the [gradle-enterprise-failsafe-jacoco-cache-miss-app](gradle-enterprise-failsafe-jacoco-cache-miss-app) module
