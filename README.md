@@ -11,6 +11,10 @@ To demonstrate the following can be done:
 3. Run `./mvnw clean verify` again
    1. `failsafe:integration-test` will result in a cache miss for the [gradle-enterprise-failsafe-jacoco-cache-miss-app](gradle-enterprise-failsafe-jacoco-cache-miss-app) module
 
+### Solution
+
+Add `prepare-agent-integration` goal to `jacoco-maven-plugin`.
+
 ## Problem 2: Surefire Container Miss
 
 To demonstrate the following can be done:
