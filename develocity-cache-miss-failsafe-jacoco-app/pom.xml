@@ -6,11 +6,11 @@
 
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>gradle-enterprise-failsafe-jacoco-cache-miss</artifactId>
+        <artifactId>develocity-cache-miss</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>gradle-enterprise-failsafe-jacoco-cache-miss-app</artifactId>
+    <artifactId>develocity-cache-miss-failsafe-jacoco-app</artifactId>
 
     <dependencies>
         <dependency>

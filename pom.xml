@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>gradle-enterprise-failsafe-jacoco-cache-miss</artifactId>
+    <artifactId>develocity-cache-miss</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -20,8 +20,8 @@
     </properties>
 
     <modules>
-        <module>gradle-enterprise-failsafe-jacoco-cache-miss-app</module>
-        <module>gradle-enterprise-failsafe-jacoco-cache-miss-coverage</module>
+        <module>develocity-cache-miss-failsafe-jacoco-app</module>
+        <module>develocity-cache-miss-failsafe-jacoco-coverage</module>
     </modules>
 
     <build>

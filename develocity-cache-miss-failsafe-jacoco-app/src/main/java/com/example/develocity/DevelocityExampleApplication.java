@@ -1,13 +1,13 @@
-package com.example.gradle;
+package com.example.develocity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GradleExampleApplication {
+public class DevelocityExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GradleExampleApplication.class, args);
+		SpringApplication.run(DevelocityExampleApplication.class, args);
 	}
 
 }
