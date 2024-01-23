@@ -126,7 +126,6 @@
                                             <property><name>optionalAnnotations</name></property>
                                             <property><name>optionalProperties</name></property>
                                             <property><name>optionalPropertiesDeclaration</name></property>
-                                            <property><name>outputFile</name></property>
                                             <property><name>outputFileType</name></property>
                                             <property><name>outputKind</name></property>
                                             <property><name>primitivePropertiesRequired</name></property>
@@ -149,6 +148,9 @@
                                             <property><name>umdNamespace</name></property>
                                         </properties>
                                         <ignoredProperties>
+                                            <!-- Develocity does not support java.io.File for caching -->
+                                            <ignore>outputFile</ignore>
+                                            <!-- Develocity does not support org.apache.maven.project.MavenProject for caching -->
                                             <ignore>project</ignore>
                                         </ignoredProperties>
                                     </inputs>
