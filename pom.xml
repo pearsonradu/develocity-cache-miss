@@ -45,6 +45,7 @@
                                     <inputs>
                                     </inputs>
                                     <outputs>
+                                        <cacheableBecause>This plugin has well-defined inputs and outputs</cacheableBecause>
                                     </outputs>
                                 </plugin>
                             </plugins>
